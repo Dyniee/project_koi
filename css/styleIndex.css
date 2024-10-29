@@ -1,0 +1,275 @@
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: white;
+}
+
+.TrangCh {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: white;
+}
+
+/* .header {
+  width: 100%;
+  height: 50px;
+  background: #fbcbcb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+} */
+
+/* .KoiFarmHotline0935080444 {
+  color: black;
+  font-size: 32px;
+  font-weight: 400;
+} */
+
+.NgNhPNgK {
+  color: black;
+  font-size: 32px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.product {
+  width: 400px;
+  margin: 20px;
+  background: #d9d9d9;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+.product-info {
+  padding: 10px;
+}
+
+.product-title {
+  font-size: 22px;
+  font-weight: 400;
+  color: black;
+}
+
+.product-price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #bd2323;
+}
+
+.buy-button {
+  background: #4c492e;
+  color: black;
+  font-size: 22px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.buy-button:hover {
+  background: #d9d9d9;
+}
+
+/* .footer2 {
+  background: #692c2c;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-text2 {
+  color: black;
+  font-size: 22px;
+} */
+
+
+/* body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: white;
+}
+
+.header {
+  position: relative;
+  height: 50px;
+  background: #fbcbcb;
+}
+
+.hotline {
+  position: absolute;
+  left: 79px;
+  top: 3px;
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.login {
+  position: absolute;
+  right: 79px;
+  top: 11px;
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.slidebar {
+  display: flex;
+  justify-content: center;
+  background: #ebe398;
+  padding: 10px 0;
+}
+
+.slidebar a {
+  margin: 0 20px;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.slidebar a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  padding: 40px;
+  background: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  width: 80%;
+  margin-bottom: 40px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 32px;
+  color: #b85c5c;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-content {
+  font-size: 18px;
+  color: #333;
+}
+
+.footer {
+  position: relative;
+  height: 50px;
+  background: #c55252;
+  text-align: center;
+  color: rgb(113, 70, 70);
+  padding: 20px;
+}
+
+.line {
+  border: 11px solid rgb(216, 187, 187);
+  width: 231px;
+  height: 0;
+  margin: 20px auto;
+}
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: white;
+}
+
+.login-container {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d9d9d9;
+}
+
+.login-box {
+  width: 500px;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+  text-align: center;
+  font-size: 28px;
+  color: #b85c5c;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  height: 40px;
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.btn-login {
+  width: 100%;
+  height: 45px;
+  background: #b85c5c;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-login:hover {
+  background: #96588a;
+}
+
+.user-role {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+.footer {
+  height: 50px;
+  background: #c55252;
+  text-align: center;
+  color: rgb(192, 176, 176);
+  padding: 10px;
+}
+
+.line {
+  border: 11px solid rgb(97, 78, 78);
+  width: 231px;
+  height: 0;
+  margin: 20px auto;
+} */

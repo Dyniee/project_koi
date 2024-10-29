@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Koi Farm - Đăng Nhập</title>
+    <link rel="stylesheet" href="../css/styleLogin.css" />
+    <link rel="stylesheet" href="../css/styleLayout.css" />
+    <!-- <link rel="stylesheet" href="styleLayout.css" />  -->
+    
+    <!-- Liên kết tới tệp CSS -->
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="Hotline">KOI FARM - hotline 0935080444</div>
+      <a href="./login.html" class="login">ĐĂNG NHẬP / ĐĂNG KÝ</a>
+    </div>
+  <div class="slidebar">
+      <a href="../index.html" class="index">Trang chủ</a>
+      <a href="./gioithieu.html">Giới thiệu</a>
+      <a href="cakois.html">Cá Koi</a>
+      <a href="sanpham.html">Sản phẩm</a>
+      <a href="tintuc.html">Tin tức</a>
+      <a href="./giohang.html">Giỏ hàng</a>
+  </div>
+    <div class="breadcrumb">
+      <a href="../index.html"> Trang chủ </a>> Đăng nhập
+    </div>
+    <div class="TrangChu">
+      <div class="login-container">
+        <div class="login-box">
+          <div class="login-title">ĐĂNG NHẬP</div>
+          <form>
+            <div class="user-role">
+              <label>
+                <input type="radio" name="role" value="guest" required />
+                I am Customer 
+              </label>
+              <label>
+                <input type="radio" name="role" value="customer" required />
+                I am Staff
+              </label>
+              <label>
+                <input type="radio" name="role" value="guest" required />
+                I am Guest 
+              </label>
+              <label>
+                <input type="radio" name="role" value="admin" required />
+                I am Manager 
+              </label>
+            </div>
+            <div class="form-group">
+              <label for="username">Tên đăng nhập</label>
+              <input
+                type="text"
+                class="form-control"
+                id="username"
+                placeholder="Nhập tên đăng nhập"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Mật khẩu</label>
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                placeholder="Nhập mật khẩu"
+                required
+              />
+            </div>
+            <button type="submit" class="btn-login">Đăng Nhập</button>
+          </form>
+          <div style="text-align: center; margin-top: 15px">
+            <p>
+              Bạn không có tài khoản?
+              <a href="register.html" style="color: #b85c5c">Đăng ký ngay</a>
+            </p>
+            <p><a href="#" style="color: #b85c5c">Quên mật khẩu?</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- Footer Section -->
+     <div class="footer">
+      <div class="line"></div>
+      <p>Copyright © 2024 Koi Farm</p>
+    </div>
+  </body>
+</html>
